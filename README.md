@@ -89,3 +89,68 @@ The colab notebook can be used for execution or the following comand may be used
 ```
 python3 train_tuning.py
 ```
+### Retraining the model with the best set of hyper-parameters
+After the hyper parameter sweeping is performed and we obtain the best set of hyper parameters that give the best validation accuracy on the dataset, we set the hyperparamters values to that of the best value and retrain the model for larger number of epochs.  
+The best set of hyperparameters in our case turned out to be the following:
+```
+'''
+Setting the hyparameter of the best configuration below for re-training the model with the best set of hyperparameters.
+'''
+# image size that the model is trainied on
+img_size = (128,128)
+
+# sweep config with best set of hyper parameters only for re-training
+sweep_config = {
+  "name": "Bayesian Sweep",
+  "method": "bayes",
+  "metric":{
+  "name": "val_accuracy",
+  "goal": "maximize"
+  },
+  "parameters": {
+        
+        "activation":{
+            "values": ["elu"]
+        },
+        "filter_size": {
+            "values": [(3,3)]
+        },
+        "batch_size": {
+            "values": [64]
+        },
+        "padding": {
+            "values": ["valid"]
+        },
+        "data_augmentation": {
+            "values": [False]
+        },
+        "optimizer": {
+            "values": ["adam"]
+        },
+        "batch_normalization": {
+            "values": [True]
+        },
+        "batchnorm_location": {
+            "values": ["After"]
+        },
+        "num_filters": {
+            "values": [32]
+        },
+        "dense_neurons": {
+            "values": [128]
+        },   
+        "dropout_loc": {
+            "values": ["all"]
+        },
+        "dropout": {
+            "values": [0.3]
+        },  
+        "gap": {
+            "values": [True]
+        }, 
+        "filter_multiplier": {
+            "values": ["double"]
+        },
+    }
+}
+```
