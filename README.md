@@ -154,3 +154,8 @@ sweep_config = {
     }
 }
 ```
+The best set of hyper parameters need to be set along with the wandb project name, the model save path location and the larger number of epochs to be tested in the best_model_train.py file.  
+The retraining can be performed by running the colab notebook or the follwing command.
+```
+python3 best_model_train.py
+```
