@@ -1,0 +1,10 @@
+wandb
+tensorflow-gpu==2.4.1
+numpy
+sklearn
+matplotlib
+opencv-contrib-python
+opencv-python
+numpy
+pandas
+seaborn
