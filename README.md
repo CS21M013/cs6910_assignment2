@@ -84,3 +84,8 @@ sweep_config = {
     }
 }
 ```
+The hyper-parameter tuning can be performed after setting the appropriate parameter values. The correct project name of the wandb initialization and the model save path name needs to be specified in the train() function for saving the corresponding models for future uses.
+The colab notebook can be used for execution or the following comand may be used:
+```
+python3 train_tuning.py
+```
