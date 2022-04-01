@@ -1,4 +1,4 @@
-#Overview
+# Overview  
 Assignment 2 of CS6910 - Fundamentals of Deep Learning  
 **(Assignment 2 : Image classification and object detection using CNNs)**  
 The task of the assignment was 3 fold.
