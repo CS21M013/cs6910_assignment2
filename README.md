@@ -7,8 +7,7 @@ The task of the assignment was 3 fold.
   3. Use a pretrained Object Detection model for a cool application
 
 **The link to the wandb report containing all the aforemnentioned task is** - 
-https://wandb.ai/cs21m007_cs21m013/CS6910-Assignment2-PartA_anotherTry_chandra/reports/Assignment-2-Image-classification-and-object-detection-using-CNNs--VmlldzoxNzY2MTcz  
-
+https://wandb.ai/cs21m007_cs21m013/CS6910-Assignment2-PartA_anotherTry_chandra/reports/Assignment-2-Image-classification-and-object-detection-using-CNNs--VmlldzoxNzY2MTcz?accessToken=6onumj31ka4nyjrdbwlnaiqsb77tkxearlcer9rkmjjyh5ngs61n94wu8l808f0n
 ## Part A - Building and training a CNN model from scratch for classification on the Inaturalist12k dataset.
 ### Building the simple CNN model
 The simple 5 convolutional layer based CNN model has been implemented in the CNN_model.py file.  
