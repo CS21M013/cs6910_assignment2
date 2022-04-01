@@ -13,3 +13,8 @@ https://wandb.ai/cs21m007_cs21m013/CS6910-Assignment2-PartA_anotherTry_chandra/r
 The simple 5 convolutional layer based CNN model has been implemented in the CNN_model.py file.  
 The code snippet is also present in the .ipynb file which can also be executed in colab as well as jupyter notebook with GPU requirements. The model class contains 2 functions that are build_cnnmodel and the cnnBlock. The former builds the entire model depending on the hyperparameters that are selected and the cnnBlock function actually returns a block of Convolutional layer, activation layer and maxpooling layer with batchnormalization if necessary.  
 The cnnModel class has been called in the train.py file in the hyperparamter tuning part to build a model with set hyper-parameters and in the best_model_train.py to biuld model with best set of hyper-paramters and retain the model for more number of epochs.
+
+The package dependencies are provided in the libraries_required.txt file in the Part A folder and the libraries can be easily installed using:  
+```
+pip install -r libraries_required.txt
+```
