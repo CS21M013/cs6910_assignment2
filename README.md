@@ -196,7 +196,12 @@ The code for the detection using the pretrained weights can be executed in local
 ```
 python YOLO_V3.py --play_video True --video_path videos/video.mp4
 ```
-For executing the above code for real time detection using, one needs to have a folder named videos with all the videos on which the detection needs to be performed. The name of the video file needs to be specified in the executable comand.  
+For executing the above code for real time detection using, one needs to have a folder named videos with all the videos on which the detection needs to be performed. The name of the video file needs to be specified in the executable comand. Other major requirements include
+```
+numpy 
+opencv-python (cv2)
+```
 The video with the detection performed is uploaded on youtube and the link of it is follows - https://www.youtube.com/watch?v=OqmQ2H5c_1Q
 
+**Reference:** The paper from which we took the refernce is - https://ieeexplore.ieee.org/document/9155625  
 **Note:** The model has not been trained locally, but pre-trained weights of the model trained on images of guns and small fires have been used for the aforementione application.
