@@ -182,9 +182,16 @@ Both these scripts can be run from the working directory. The aforementioned vis
 ## Part B -   
 ## Part C - Using a pre-trained model as it is (YOLO-V3)  
 The Part C of the assingmnet required us to use a yolo-v3 pre-trained model as it is in application of your choice.  
-The application based on object detection using YOLO-V3 is detecting guns,rifles and fires in real time video, images or directly from webcam as well. The higher objective or goal of this application would be to reduce gun violence in different parts of the world andd prevent small accidents caused by fires by detecting them at early stages, when the fire is not devastating enough.
+The application based on object detection using YOLO-V3 is detecting guns,rifles and fires in real time video, images or directly from webcam as well. The higher objective or goal of this application would be to reduce gun violence in different parts of the world andd prevent small accidents caused by fires by detecting them at early stages, when the fire is not devastating enough.  
+The Part C folder contains the following  
+  1. sample_image_detections.jpg (Gun,rifle and fire detection performed on a sample image)
+  2. YOLO_V3.py (The python file for performing real time detection)*
+  3. obj.names (The objects that are to be detected)*
+  4. yolov3.cfg (The network details are provided here)*  
+
 The pretrained weights can be downloaded from the following link - https://drive.google.com/file/d/1HBbJoY7W0NjpMd_-ILklsIXosoVMrIZx/view?usp=sharing  
-After downloading the weights need to be saved in the folder of the python file itself.  
+After downloading the weights need to be saved in the folder of the python file itself.   
+The * named files are required along with the pre-trained weights that need to be downloaded for the executiuon of the python file.  
 The code for the detection using the pretrained weights can be executed in local machine by the following comand, which is as follows  
 ```
 python YOLO_V3.py --play_video True --video_path videos/video.mp4
