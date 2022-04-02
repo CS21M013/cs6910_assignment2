@@ -174,7 +174,7 @@ python3 sampleImage_predictions.py
 ### Visualization of the CNNs
 In order to learn how the CNNs learn the following have been scripted to generate feature maps of the convolutional layers and the activation layers. Guided back propagation has also been performed on a sample image for 10 neurons to understand the effect of the input on the activation of the neurons.
   1. ```filter_visualization.py```
-  2. ```guided_backprop.py```
+  2. ```guided_backprop.py```  
 Both these scripts can be run from the working directory. The aforementioned visualization task can also be performed for in the colab notebook.
 
 **Note:** The paths of the data and the model saved paths and the paths for saving the genrated plots are mentioned in the paths.py file. Still in some places of the code they might need to be mentioned explicitly such as in the train_tuning.py and the best_model_train.py.....
