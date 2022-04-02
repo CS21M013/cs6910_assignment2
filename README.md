@@ -179,7 +179,21 @@ Both these scripts can be run from the working directory. The aforementioned vis
 **Note:** The paths of the data and the model saved paths and the paths for saving the genrated plots are mentioned in the paths.py file. Still in some places of the code they might need to be mentioned explicitly such as in the train_tuning.py and the best_model_train.py.....
 
 ## Part B -   
-Part B of this assignment is to perform Transfer Learning on pretrained models. We have used 4 base models namely ResNet50, InceptionV3, Xception and InceptionResNetV2.
+Part B of this assignment is to perform Transfer Learning on pretrained models. We have used 4 base models namely ResNet50, InceptionV3, Xception and InceptionResNetV2.  
+The folder PartB contains a Jupyter Notebook that contains stepwise code for Transfer Learning.  
+The requirements for running the code are:
+```
+1) wandb
+2) tensorflow 2.0
+3) matplotlib
+4) numpy
+5) pandas
+```
+
+The preferred way to run this code is to upload it on google colab and run all the cells of Notebook sequentially.  
+To run it in local machine, please install the above mentioned libraries adn then run the cells of Notebook sequentially.
+
+
 
 ## Part C - Using a pre-trained model as it is (YOLO-V3)  
 The Part C of the assingmnet required us to use a yolo-v3 pre-trained model as it is in application of your choice.  
