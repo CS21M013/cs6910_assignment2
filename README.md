@@ -178,3 +178,9 @@ In order to learn how the CNNs learn the following have been scripted to generat
 Both these scripts can be run from the working directory. The aforementioned visualization task can also be performed for in the colab notebook.
 
 **Note:** The paths of the data and the model saved paths and the paths for saving the genrated plots are mentioned in the paths.py file. Still in some places of the code they might need to be mentioned explicitly such as in the train_tuning.py and the best_model_train.py.....
+
+## Part B -   
+## Part C - Using a pre-trained model as it is (YOLO-V3)  
+The Part C of the assingmnet required us to use a yolo-v3 pre-trained model as it is in application of your choice.  
+The application based on object detection using YOLO-V3 is detecting guns,rifles and fires in real time video, images or directly from webcam as well. The higher objective or goal of this application would be to reduce gun violence in different parts of the world andd prevent small accidents caused by fires by detecting them at early stages, when the fire is not devastating enough.
+The pretrained weights can be downloaded from the following link - https://drive.google.com/file/d/1HBbJoY7W0NjpMd_-ILklsIXosoVMrIZx/view?usp=sharing  
