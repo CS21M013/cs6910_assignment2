@@ -180,7 +180,8 @@ Both these scripts can be run from the working directory. The aforementioned vis
 
 ## Part B - Fine-tuning a pre-trained model
 Part B of this assignment is to perform Transfer Learning on pretrained models. We have used 4 base models namely 
-```ResNet50
+```
+ResNet50
 InceptionV3
 Xception
 InceptionResNetV2
