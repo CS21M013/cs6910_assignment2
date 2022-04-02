@@ -191,7 +191,7 @@ The requirements for running the code are:
 ```
 
 The preferred way to run this code is to upload it on google colab and run all the cells of Notebook sequentially.  
-To run it in local machine, please install the above mentioned libraries adn then run the cells of Notebook sequentially.
+To run it in local machine, please install the above mentioned libraries and then run the cells of Notebook sequentially.
 
 
 
