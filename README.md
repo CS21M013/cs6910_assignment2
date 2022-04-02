@@ -203,5 +203,5 @@ opencv-python (cv2)
 ```
 The video with the detection performed is uploaded on youtube and the link of it is follows - https://www.youtube.com/watch?v=OqmQ2H5c_1Q
 
-**Reference:** The paper from which we took the refernce is - https://ieeexplore.ieee.org/document/9155625    
+**Reference:** The paper from which we took the reference is - https://ieeexplore.ieee.org/document/9155625    
 **Note:** The model has not been trained locally, but pre-trained weights of the model trained on images of guns and small fires have been used for the aforementione application.
