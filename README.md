@@ -178,8 +178,13 @@ Both these scripts can be run from the working directory. The aforementioned vis
 
 **Note:** The paths of the data and the model saved paths and the paths for saving the genrated plots are mentioned in the paths.py file. Still in some places of the code they might need to be mentioned explicitly such as in the train_tuning.py and the best_model_train.py.....
 
-## Part B -   
-Part B of this assignment is to perform Transfer Learning on pretrained models. We have used 4 base models namely ResNet50, InceptionV3, Xception and InceptionResNetV2.  
+## Part B - Fine-tuning a pre-trained model
+Part B of this assignment is to perform Transfer Learning on pretrained models. We have used 4 base models namely 
+```ResNet50
+InceptionV3
+Xception
+InceptionResNetV2
+```  
 The folder PartB contains a Jupyter Notebook that contains stepwise code for Transfer Learning.  
 The requirements for running the code are:
 ```
