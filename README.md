@@ -184,3 +184,12 @@ Both these scripts can be run from the working directory. The aforementioned vis
 The Part C of the assingmnet required us to use a yolo-v3 pre-trained model as it is in application of your choice.  
 The application based on object detection using YOLO-V3 is detecting guns,rifles and fires in real time video, images or directly from webcam as well. The higher objective or goal of this application would be to reduce gun violence in different parts of the world andd prevent small accidents caused by fires by detecting them at early stages, when the fire is not devastating enough.
 The pretrained weights can be downloaded from the following link - https://drive.google.com/file/d/1HBbJoY7W0NjpMd_-ILklsIXosoVMrIZx/view?usp=sharing  
+After downloading the weights need to be saved in the folder of the python file itself.  
+The code for the detection using the pretrained weights can be executed in local machine by the following comand, which is as follows  
+```
+python YOLO_V3.py --play_video True --video_path videos/video.mp4
+```
+For executing the above code for real time detection using, one needs to have a folder named videos with all the videos on which the detection needs to be performed. The name of the video file needs to be specified in the executable comand.  
+The video with the detection performed is uploaded on youtube and the link of it is follows - https://www.youtube.com/watch?v=OqmQ2H5c_1Q
+
+**Note:** The model has not been trained locally, but pre-trained weights of the model trained on images of guns and small fires have been used for the aforementione application.
